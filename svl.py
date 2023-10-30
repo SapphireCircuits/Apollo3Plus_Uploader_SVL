@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # SparkFun Variable Loader
-# Variable baud rate bootloader for Artemis Apollo3 modules
+# Variable baud rate bootloader for Artemis Apollo3 Plus modules
 
 # Immediately upon reset the Artemis module will search for the timing character
 #   to auto-detect the baud rate. If a valid baud rate is found the Artemis will

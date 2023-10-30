@@ -60,7 +60,7 @@ Modified: Juy 22 2019
 // Defines
 //
 //*****************************************************************************
-#define SVL_VERSION_NUMBER 0x06
+#define SVL_VERSION_NUMBER 0x07
 
 // ****************************************
 //
@@ -337,10 +337,10 @@ bool detect_baud_rate(uint32_t *baud)
     enable_burst_mode();
 
     am_hal_gpio_pinconfig(BL_RX_PAD, g_AM_HAL_GPIO_INPUT_PULLUP);
-
+    AM_HAL_GPIO_MASKCREATE(BL_RX_PAD_Mask);
     ap3_gpio_enable_interrupts(BL_RX_PAD, AM_HAL_GPIO_PIN_INTDIR_LO2HI);
-    am_hal_gpio_interrupt_clear(AM_HAL_GPIO_BIT(BL_RX_PAD));
-    am_hal_gpio_interrupt_enable(AM_HAL_GPIO_BIT(BL_RX_PAD));
+    am_hal_gpio_interrupt_clear(AM_HAL_GPIO_MASKBIT(pBL_RX_PAD_Mask, BL_RX_PAD));
+    am_hal_gpio_interrupt_enable(AM_HAL_GPIO_MASKBIT(pBL_RX_PAD_Mask, BL_RX_PAD));
     NVIC_EnableIRQ(GPIO_IRQn);
 
     while ((millis() - bl_entry_timeout_start) < bl_entry_timeout_ms)
@@ -408,8 +408,8 @@ bool detect_baud_rate(uint32_t *baud)
         }
     }
 
-    am_hal_gpio_interrupt_disable(AM_HAL_GPIO_BIT(BL_RX_PAD));
-    am_hal_gpio_interrupt_clear(AM_HAL_GPIO_BIT(BL_RX_PAD));
+    am_hal_gpio_interrupt_disable(AM_HAL_GPIO_MASKBIT(pBL_RX_PAD_Mask, BL_RX_PAD));
+    am_hal_gpio_interrupt_clear(AM_HAL_GPIO_MASKBIT(pBL_RX_PAD_Mask, BL_RX_PAD));
     NVIC_DisableIRQ(GPIO_IRQn);
 
     disable_burst_mode();
@@ -744,7 +744,8 @@ void am_uart1_isr(void)
 //*****************************************************************************
 void am_gpio_isr(void)
 {
-    am_hal_gpio_interrupt_clear(AM_HAL_GPIO_BIT(BL_RX_PAD));
+    AM_HAL_GPIO_MASKCREATE(BL_RX_PAD_Mask);
+    am_hal_gpio_interrupt_clear(AM_HAL_GPIO_MASKBIT(pBL_RX_PAD_Mask, BL_RX_PAD));
     if (bl_baud_ticks_index < BL_BAUD_SAMPLES)
     {
         bl_baud_ticks[bl_baud_ticks_index++] = CTIMER->STTMR;

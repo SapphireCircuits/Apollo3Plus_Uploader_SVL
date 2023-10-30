@@ -1,13 +1,18 @@
 ![generate executables](https://github.com/sparkfun/Apollo3_Uploader_SVL/workflows/generate%20executables/badge.svg)
 
-# Apollo3 Uploader - SparkFun Variable Loader (SVL)
+# Apollo3 Blue Plus Uploader - SparkFun Variable Loader (SVL)
 
-The ```svl``` bootloader is the default bootloader on Artemis module--based boards. This repo contains both the Python programs that are used to send code to a board and the source code for the program that receives code on an Artemis module.
+## Updated to support the Apollo3 Blue Plus, no longer supports Apollo3
+
+## See our [Kickstarter campaign](https://www.kickstarter.com/projects/davewy/artemis-plus-low-power-ai-ml-processing-platform-and-dev-kit) for Apollo3 Blue Plus (Artemis Plus) modules and development kits!
+
+The ```svl``` bootloader is the default bootloader on Artemis Plus module--based boards. This repo contains both the Python programs that are used to send code to a board and the source code for the program that receives code on an Artemis Plus module.
 
 The bootloader for the Artemis can be upgraded via Arduino using [these instructions](https://learn.sparkfun.com/tutorials/designing-with-the-sparkfun-artemis/all#troubleshooting). It can also be upgraded using the [Artemis Firmware Upload GUI](https://github.com/sparkfun/Artemis-Firmware-Upload-GUI).
 
 Artemis SVL Versions:
 
+* v7 - Apollo 3 Blue Plus support, Apollo 3 not supported
 * v6 - Fix to write to the upper half of flash
 * v5 - Speed and reliability increases
 * v4 - Added peripheral deinitialization to deliver the Apollo3 closer to the initial reset state.
