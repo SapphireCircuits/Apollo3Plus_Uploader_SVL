@@ -146,6 +146,8 @@ else
 export COMMONPATH
 endif
 
+AMBIQ_BIN2BOARD=$(COMMONPATH)/tools_sfe/asb/asb.py
+
 ifeq ($(BOARDPATH),)
     $(error Error: BOARDPATH must be provided)
 else
@@ -182,7 +184,7 @@ DEFINES+= -DAM_CUSTOM_BDADDR
 DEFINES+= -DAM_PACKAGE_BGA
 DEFINES+= -DWSF_TRACE_ENABLED
 DEFINES+= -DAM_DEBUG_PRINTF
-DEFINES+= -DAM_PART_APOLLO3
+DEFINES+= -DAM_PART_APOLLO3P
 DEFINES+=
 
 # Includes (Add paths to where example header files are located)
@@ -192,7 +194,7 @@ INCLUDES+= -I$(BOARDPATH)/bsp
 INCLUDES+= -I$(SDKPATH)
 INCLUDES+= -I$(SDKPATH)/utils
 INCLUDES+= -I$(SDKPATH)/devices
-INCLUDES+= -I$(SDKPATH)/mcu/apollo3
+INCLUDES+= -I$(SDKPATH)/mcu/apollo3p
 INCLUDES+= -I$(SDKPATH)/CMSIS/AmbiqMicro/Include
 INCLUDES+= -I$(SDKPATH)/CMSIS/ARM/Include
 INCLUDES+= -I$(PROJECTPATH)/src/svl_packet
@@ -228,7 +230,7 @@ VPATH+=
 # LIBS (Precompiled libraries to include in the linker step)
 LIBS=
 LIBS+= $(BOARDPATH)/bsp/gcc/bin/libam_bsp.a
-LIBS+= $(SDKPATH)/mcu/apollo3/hal/gcc/bin/libam_hal.a
+LIBS+= $(SDKPATH)/mcu/apollo3p/hal/gcc/bin/libam_hal.a
 LIBS+=
 
 
@@ -247,7 +249,7 @@ SHELL:=/bin/bash
 #### Setup ####
 
 TOOLCHAIN ?= arm-none-eabi
-PART = apollo3
+PART = apollo3p
 CPU = cortex-m4
 FPU = fpv4-sp-d16
 # Default to FPU hardware calling convention.  However, some customers and/or
@@ -390,8 +392,8 @@ clean:
 
 $(CONFIG)/%.d: ;
 
-$(SDKPATH)/mcu/apollo3/hal/gcc/bin/libam_hal.a:
-	$(MAKE) -C $(SDKPATH)/mcu/apollo3/hal/gcc
+$(SDKPATH)/mcu/apollo3p/hal/gcc/bin/libam_hal.a:
+	$(MAKE) -C $(SDKPATH)/mcu/apollo3p/hal/gcc
 
 $(SDKPATH)/third_party/uecc/gcc/bin/lib_uecc.a:
 	$(MAKE) -C $(SDKPATH)/third_party/uecc
