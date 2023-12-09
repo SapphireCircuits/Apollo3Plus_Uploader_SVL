@@ -1,15 +1,15 @@
 Archive member included to satisfy reference by file (symbol)
 
-/home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+/home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
                               ../gcc/artemis_module/bin/main.o (memset)
-/home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+/home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
                               ../gcc/artemis_module/bin/am_util_stdio.o (__aeabi_d2f)
-/home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+/home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
                               ../gcc/artemis_module/bin/svl_utils.o (__aeabi_uldivmod)
-/home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
-                              /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
-/home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
-                              /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+/home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                              /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+/home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                              /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
 ../../../../../../AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_burst.o)
                               ../gcc/artemis_module/bin/svl_utils.o (am_hal_burst_mode_initialize)
 ../../../../../../AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
@@ -101,7 +101,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0xa0 ../gcc/artemis_module/bin/am_util_stdio.o
  .debug_ranges  0x0000000000000000       0x90 ../gcc/artemis_module/bin/am_util_stdio.o
- .debug_line    0x0000000000000000      0xa8d ../gcc/artemis_module/bin/am_util_stdio.o
+ .debug_line    0x0000000000000000      0xaa5 ../gcc/artemis_module/bin/am_util_stdio.o
  .debug_str     0x0000000000000000      0x591 ../gcc/artemis_module/bin/am_util_stdio.o
  .comment       0x0000000000000000       0x76 ../gcc/artemis_module/bin/am_util_stdio.o
  .debug_frame   0x0000000000000000      0x2e8 ../gcc/artemis_module/bin/am_util_stdio.o
@@ -125,22 +125,22 @@ Discarded input sections
  .text          0x0000000000000000        0x0 ../gcc/artemis_module/bin/svl_utils.o
  .data          0x0000000000000000        0x0 ../gcc/artemis_module/bin/svl_utils.o
  .bss           0x0000000000000000        0x0 ../gcc/artemis_module/bin/svl_utils.o
- .text          0x0000000000000000        0x0 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
- .data          0x0000000000000000        0x0 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
- .bss           0x0000000000000000        0x0 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
- .text          0x0000000000000000       0xa0 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
- .data          0x0000000000000000        0x0 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
- .bss           0x0000000000000000        0x0 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
- .debug_frame   0x0000000000000000       0x24 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .text          0x0000000000000000        0x0 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .text          0x0000000000000000       0xa0 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .data          0x0000000000000000        0x0 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x0000000000000000        0x0 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x0000000000000000       0x24 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
  .ARM.attributes
-                0x0000000000000000       0x1e /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
- .data          0x0000000000000000        0x0 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
- .bss           0x0000000000000000        0x0 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
- .data          0x0000000000000000        0x0 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
- .bss           0x0000000000000000        0x0 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
- .ARM.extab     0x0000000000000000        0x0 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
- .data          0x0000000000000000        0x0 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
- .bss           0x0000000000000000        0x0 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                0x0000000000000000       0x1e /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .data          0x0000000000000000        0x0 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x0000000000000000        0x0 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x0000000000000000        0x0 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .bss           0x0000000000000000        0x0 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x0000000000000000        0x0 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .data          0x0000000000000000        0x0 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000        0x0 ../../../../../../AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_burst.o)
  .data          0x0000000000000000        0x0 ../../../../../../AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_burst.o)
  .bss           0x0000000000000000        0x0 ../../../../../../AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_burst.o)
@@ -392,11 +392,11 @@ Linker script and memory map
  .ble_patch     0x000000000000c0c0       0x40 ../gcc/artemis_module/bin/startup_gcc.o
                 0x000000000000c0c0                __Patchable
  *(.text)
- .text          0x000000000000c100       0x30 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .text          0x000000000000c100       0x30 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
                 0x000000000000c100                __aeabi_uldivmod
- .text          0x000000000000c130      0x2d0 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .text          0x000000000000c130      0x2d0 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
                 0x000000000000c130                __udivmoddi4
- .text          0x000000000000c400        0x4 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .text          0x000000000000c400        0x4 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
                 0x000000000000c400                __aeabi_ldiv0
                 0x000000000000c400                __aeabi_idiv0
  *(.text*)
@@ -559,7 +559,7 @@ Linker script and memory map
  .text.ap3_gpio_enable_interrupts
                 0x000000000000d66c       0xc8 ../gcc/artemis_module/bin/svl_utils.o
                 0x000000000000d66c                ap3_gpio_enable_interrupts
- .text.memset   0x000000000000d734       0xa0 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .text.memset   0x000000000000d734       0xa0 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
                 0x000000000000d734                memset
  .text.am_hal_burst_mode_initialize
                 0x000000000000d7d4       0x84 ../../../../../../AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_burst.o)
@@ -737,7 +737,7 @@ Linker script and memory map
  .rel.iplt      0x000000000000f094        0x0 ../gcc/artemis_module/bin/main.o
 
 .ARM.exidx      0x000000000000f094        0x8
- .ARM.exidx     0x000000000000f094        0x8 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x000000000000f094        0x8 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
 
 .data           0x0000000010000000      0x20c load address 0x000000000000f09c
                 0x0000000010000000                . = ALIGN (0x4)
@@ -844,15 +844,15 @@ LOAD ../gcc/artemis_module/bin/svl_ringbuf.o
 LOAD ../gcc/artemis_module/bin/svl_uart.o
 LOAD ../gcc/artemis_module/bin/svl_utils.o
 START GROUP
-LOAD /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
-LOAD /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
-LOAD /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+LOAD /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a
 LOAD ../../../../../../AmbiqSuiteSDK/boards_sfe/artemis_module/bsp/gcc/bin/libam_bsp.a
 LOAD ../../../../../../AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a
 END GROUP
 START GROUP
-LOAD /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a
-LOAD /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+LOAD /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
 END GROUP
 OUTPUT(../gcc/artemis_module/bin/svl.axf elf32-littlearm)
 
@@ -899,14 +899,14 @@ OUTPUT(../gcc/artemis_module/bin/svl.axf elf32-littlearm)
  .debug_ranges  0x0000000000000158       0x28 ../gcc/artemis_module/bin/svl_uart.o
  .debug_ranges  0x0000000000000180       0x30 ../gcc/artemis_module/bin/svl_utils.o
 
-.debug_line     0x0000000000000000     0x1fb4
- .debug_line    0x0000000000000000      0x8bb ../gcc/artemis_module/bin/main.o
- .debug_line    0x00000000000008bb      0x321 ../gcc/artemis_module/bin/am_util_delay.o
- .debug_line    0x0000000000000bdc      0x1f5 ../gcc/artemis_module/bin/startup_gcc.o
- .debug_line    0x0000000000000dd1      0x56f ../gcc/artemis_module/bin/svl_packet.o
- .debug_line    0x0000000000001340      0x342 ../gcc/artemis_module/bin/svl_ringbuf.o
- .debug_line    0x0000000000001682      0x443 ../gcc/artemis_module/bin/svl_uart.o
- .debug_line    0x0000000000001ac5      0x4ef ../gcc/artemis_module/bin/svl_utils.o
+.debug_line     0x0000000000000000     0x204c
+ .debug_line    0x0000000000000000      0x8d3 ../gcc/artemis_module/bin/main.o
+ .debug_line    0x00000000000008d3      0x331 ../gcc/artemis_module/bin/am_util_delay.o
+ .debug_line    0x0000000000000c04      0x205 ../gcc/artemis_module/bin/startup_gcc.o
+ .debug_line    0x0000000000000e09      0x587 ../gcc/artemis_module/bin/svl_packet.o
+ .debug_line    0x0000000000001390      0x35a ../gcc/artemis_module/bin/svl_ringbuf.o
+ .debug_line    0x00000000000016ea      0x45b ../gcc/artemis_module/bin/svl_uart.o
+ .debug_line    0x0000000000001b45      0x507 ../gcc/artemis_module/bin/svl_utils.o
 
 .debug_str      0x0000000000000000     0x5d39
  .debug_str     0x0000000000000000     0x3bd3 ../gcc/artemis_module/bin/main.o
@@ -964,13 +964,13 @@ OUTPUT(../gcc/artemis_module/bin/svl.axf elf32-littlearm)
  .ARM.attributes
                 0x0000000000000138       0x34 ../gcc/artemis_module/bin/svl_utils.o
  .ARM.attributes
-                0x000000000000016c       0x34 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+                0x000000000000016c       0x34 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
  .ARM.attributes
-                0x00000000000001a0       0x1e /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x00000000000001a0       0x1e /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x00000000000001be       0x34 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x00000000000001be       0x34 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
  .ARM.attributes
-                0x00000000000001f2       0x1e /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                0x00000000000001f2       0x1e /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
                 0x0000000000000210       0x34 ../../../../../../AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_burst.o)
  .ARM.attributes
@@ -1004,6 +1004,6 @@ OUTPUT(../gcc/artemis_module/bin/svl.axf elf32-littlearm)
  .debug_frame   0x0000000000000440       0xd0 ../gcc/artemis_module/bin/svl_ringbuf.o
  .debug_frame   0x0000000000000510       0xa0 ../gcc/artemis_module/bin/svl_uart.o
  .debug_frame   0x00000000000005b0       0xc0 ../gcc/artemis_module/bin/svl_utils.o
- .debug_frame   0x0000000000000670       0x38 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
- .debug_frame   0x00000000000006a8       0x2c /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x00000000000006d4       0x34 /home/jam/.arduino15/packages/SparkFun/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000000000000670       0x38 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .debug_frame   0x00000000000006a8       0x2c /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00000000000006d4       0x34 /home/jam/.arduino15/packages/SapphireCircuits/tools/arm-none-eabi-gcc/8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
